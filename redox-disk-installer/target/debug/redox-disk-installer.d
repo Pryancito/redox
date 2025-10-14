@@ -1,0 +1,1 @@
+/home/moebius/redox/redox-disk-installer/target/debug/redox-disk-installer: /home/moebius/redox/redox-disk-installer/src/direct_installer.rs /home/moebius/redox/redox-disk-installer/src/disk_manager.rs /home/moebius/redox/redox-disk-installer/src/main.rs /home/moebius/redox/redox-disk-installer/src/validation.rs

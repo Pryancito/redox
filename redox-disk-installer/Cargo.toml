@@ -1,0 +1,25 @@
+[package]
+name = "redox-disk-installer"
+version = "1.0.0"
+edition = "2021"
+authors = ["Redox OS Team"]
+description = "Instalador completo en disco para Redox OS"
+license = "MIT"
+
+[[bin]]
+name = "redox-disk-installer"
+path = "src/main.rs"
+
+[dependencies]
+libc = "0.2"
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = true
+codegen-units = 1
+
